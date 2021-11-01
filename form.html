@@ -1,0 +1,62 @@
+<html>
+<head>
+<title>form</title>
+<style>
+.buttonn
+{
+	position:absolute;
+	top:95%;
+	left:95%;
+	transform:translate(-50%,-50%);
+}
+.btnn
+{
+
+	padding:7px 25px;
+	color:black;
+	text-decoration:excellance;
+
+}
+</style>
+
+</head>
+<body>
+
+<td width="30%" style="color:white;font-size:30px;text-align:center">
+<form action="form.php" method="post">
+<table border="0" cellpadding="10" bgcolor="#F08080" align="center">
+<tr><td>First Name</td><td>
+<input type="text" name="fname" required></td></tr>
+<tr><td>Last Name</td><td>
+<input type="text" name="lname" required></td></tr>
+<tr><td>Contact</td><td>
+<input type="number" name="contact" required></td></tr>
+<tr><td>Gender</td><td>
+<select name="gender">
+<option>default</option>
+<option>Male</option>
+<option>Female</option>
+<option>others</option>
+</select>
+</td></tr>
+<tr><td>Address</td><td>
+<input type="text" name="address" required></td></tr>
+<tr><td>Do you have a Doctor ?</td><td>
+<select name="doc">
+<option>default</option>
+<option>Yes</option>
+<option>No</option>
+</select>
+</td></tr>
+<tr><td>
+<input type="submit" value="submit" name="btn" ></td></tr>
+</table>
+</form>
+</td>
+</td>
+</tr>
+<div class="buttonn">
+<a href="home.html" class="btnn"><b>Back</b></a>
+   </div>
+</body>
+</html>
